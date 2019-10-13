@@ -3,7 +3,6 @@ package android.example.com.flixter;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.example.com.flixter.models.Movie;
-import android.nfc.Tag;
 import android.os.Bundle;
 import android.util.Log;
 
