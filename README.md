@@ -23,7 +23,7 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 ### App Walkthough GIF
 
-<img src="YOUR_GIF_URL_HERE" width=250><br>
+<img src="https://github.com/Rhijke/project1-flixter/blob/master/part1walkthrough.gif" width=250><br>
 
 ### Notes
 Some challenges I had were figuring out how to get multiple movie items to be viewed on one screen rather than a single movie item. I also had a problem with getting the movie items to be displayed and resolved it by using addAll instead of reassigning the movies List. 
