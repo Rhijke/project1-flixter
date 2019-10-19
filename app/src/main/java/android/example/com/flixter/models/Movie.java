@@ -1,14 +1,19 @@
 package android.example.com.flixter.models;
 
+import org.json.JSONException;
 import org.json.JSONArray;
 import org.json.JSONObject;
+import org.parceler.Parcel;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Parcel
 public class Movie {
     String posterPath, title, overview, backdropPath;
+    public Movie() {
 
+    }
     public Movie(JSONObject jsonObject) throws Exception {
         posterPath = jsonObject.getString("poster_path");
         title = jsonObject.getString("title");
