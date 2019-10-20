@@ -15,6 +15,7 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         // should correspond to key/value pairs inside the file
         buildConfigField("String", "MOVIE_API_KEY", apikeyProperties['API_KEY'])
+        buildConfigField("String", "YOUTUBE_API_KEY", apikeyProperties['YOUTUBE_KEY'])
     }
     buildTypes {
         release {
