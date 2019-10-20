@@ -20,6 +20,7 @@
         android:id="@+id/tvTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/advent_pro_semibold"
         android:layout_alignTop="@+id/ivPoster"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="5dp"
@@ -31,6 +32,7 @@
     <TextView
         android:id="@+id/tvOverview"
         android:layout_width="match_parent"
+        android:fontFamily="@font/basic"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvTitle"
         android:layout_alignParentEnd="true"
